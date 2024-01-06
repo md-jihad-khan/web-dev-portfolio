@@ -20,6 +20,12 @@ body {
   font-weight: 700;
   padding: 18px 35px;
 }
+.section-title {
+  color: #181818;
+  text-align: center;
+  font-size: 35px;
+  font-weight: 700px;
+}
 /* nav related style */
 
 nav {
@@ -69,7 +75,6 @@ nav a {
 }
 .banner .profile-pic {
   width: 584px;
-  height: 676px;
 }
 .banner-greeting {
   color: #474747;
@@ -100,4 +105,51 @@ nav a {
   font-size: 20px;
   padding: 18px 35px;
   margin-left: 30px;
+}
+
+/* main related style */
+main {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+/* about related style */
+.about {
+  padding: 131px 156px;
+  margin: 131px 0;
+  border-radius: 10px;
+  background: #fff8f3;
+}
+
+.section-description {
+  color: #757575;
+  text-align: center;
+
+  font-size: 18px;
+
+  font-weight: 400;
+  margin: 30px 0;
+  line-height: 30px;
+}
+.about-info-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.about-info {
+  text-align: center;
+}
+
+.info-title {
+  color: #757575;
+
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.info-description {
+  color: #474747;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
 }
