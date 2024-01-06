@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 /* common shared style */
 body {
   font-family: "Open Sans", sans-serif;
@@ -21,10 +26,12 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin: 0px 230px 0px 226px;
+  padding-top: 50px;
 }
 .nav-title {
   font-size: 45px;
-  font-weight: 800;
+  font-weight: 700;
 }
 
 nav > ul {
@@ -34,7 +41,7 @@ nav > ul {
 
 nav li {
   list-style: none;
-  margin-right: 51px;
+  margin-left: 51px;
 }
 
 nav a {
@@ -42,4 +49,55 @@ nav a {
   color: #474747;
   font-size: 20px;
   font-weight: 400;
+}
+
+/* header related style */
+
+.header {
+  background-color: #fff8f3;
+  background-image: url("../images/header_bg.png");
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
+.banner {
+  padding: 30px 30px 0px 230px;
+  display: flex;
+  align-items: center;
+}
+.banner-content {
+  max-width: 585px;
+}
+.banner .profile-pic {
+  width: 584px;
+  height: 676px;
+}
+.banner-greeting {
+  color: #474747;
+  margin-bottom: 0;
+  font-size: 45px;
+  font-weight: 600;
+  line-height: normal;
+}
+.banner-title {
+  color: #181818;
+  font-size: 85px;
+  font-weight: 700;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+.banner-desc {
+  color: #757575;
+  margin-bottom: 30px;
+  font-size: 18px;
+  font-weight: 400;
+}
+.contact-btn {
+  color: #fd6e0a;
+  border: 2px solid #fd6e0a;
+  border-radius: 5px;
+  background: transparent;
+  font-size: 20px;
+  padding: 18px 35px;
+  margin-left: 30px;
 }
