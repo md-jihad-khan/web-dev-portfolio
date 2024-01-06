@@ -224,4 +224,13 @@ main section {
 .dawonload-cv {
   text-align: center;
   margin-top: 50px;
+  margin-bottom: 113px;
+}
+
+/* footer style */
+footer {
+  display: flex;
+  background: #fff8f3;
+  padding: 130px 230px;
+  gap: 117px;
 }
